@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "X6L4cQf0LKc=",
+  "success": true,
+  "projectFilePath": "/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Infra.IoC/MicroRabbit.Infra.IoC.csproj",
+  "expectedPackageFiles": [
+    "/home/kredle/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.11/microsoft.extensions.dependencyinjection.9.0.11.nupkg.sha512",
+    "/home/kredle/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.11/microsoft.extensions.dependencyinjection.abstractions.9.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
