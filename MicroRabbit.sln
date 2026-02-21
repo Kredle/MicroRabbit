@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{7EC8F967-F38E-47ED-B745-EAE59B528BEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{66B3FEE3-6134-4F36-97DF-C34FBB1EE453}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{1468BC78-484A-49DD-8ABF-ED4A507DA473}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{3F7ADC4F-745B-4421-9933-4950CB4C0B2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5E4604B3-49DC-4243-8165-BD97308DC7AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{753D5B6C-1D9C-432B-BE71-A143F782C826}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{D361AC6C-C796-439A-95E4-F25F1412BAE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{753D5B6C-1D9C-432B-BE71-A143F782C826} = {66B3FEE3-6134-4F36-97DF-C34FBB1EE453}
+		{D361AC6C-C796-439A-95E4-F25F1412BAE4} = {1468BC78-484A-49DD-8ABF-ED4A507DA473}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{753D5B6C-1D9C-432B-BE71-A143F782C826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{753D5B6C-1D9C-432B-BE71-A143F782C826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{753D5B6C-1D9C-432B-BE71-A143F782C826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{753D5B6C-1D9C-432B-BE71-A143F782C826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D361AC6C-C796-439A-95E4-F25F1412BAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D361AC6C-C796-439A-95E4-F25F1412BAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D361AC6C-C796-439A-95E4-F25F1412BAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D361AC6C-C796-439A-95E4-F25F1412BAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

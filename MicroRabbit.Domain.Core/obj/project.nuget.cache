@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "d5bWwVCsAow=",
+  "success": true,
+  "projectFilePath": "/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "/home/kredle/.nuget/packages/mediatr/12.4.0/mediatr.12.4.0.nupkg.sha512",
+    "/home/kredle/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/kredle/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

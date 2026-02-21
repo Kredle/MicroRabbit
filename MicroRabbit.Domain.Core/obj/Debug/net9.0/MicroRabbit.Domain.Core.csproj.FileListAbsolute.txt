@@ -1,0 +1,12 @@
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/bin/Debug/net9.0/MicroRabbit.Domain.Core.deps.json
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/bin/Debug/net9.0/MicroRabbit.Domain.Core.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/bin/Debug/net9.0/MicroRabbit.Domain.Core.pdb
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/net9.0/MicroRabbit.Domain.Core.csproj.AssemblyReference.cache
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/net9.0/MicroRabbit.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/net9.0/MicroRabbit.Domain.Core.AssemblyInfoInputs.cache
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/net9.0/MicroRabbit.Domain.Core.AssemblyInfo.cs
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/net9.0/MicroRabbit.Domain.Core.csproj.CoreCompileInputs.cache
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/net9.0/MicroRabbit.Domain.Core.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/net9.0/refint/MicroRabbit.Domain.Core.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/net9.0/MicroRabbit.Domain.Core.pdb
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/net9.0/ref/MicroRabbit.Domain.Core.dll
