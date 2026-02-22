@@ -1,0 +1,16 @@
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/bin/Debug/net9.0/MicroRabbit.Banking.Application.deps.json
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/bin/Debug/net9.0/MicroRabbit.Banking.Application.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/bin/Debug/net9.0/MicroRabbit.Banking.Application.pdb
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/bin/Debug/net9.0/MicroRabbit.Banking.Domain.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/bin/Debug/net9.0/MicroRabbit.Banking.Domain.pdb
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.csproj.AssemblyReference.cache
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.AssemblyInfoInputs.cache
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.AssemblyInfo.cs
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.csproj.CoreCompileInputs.cache
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.sourcelink.json
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRab.1B946F70.Up2Date
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/obj/Debug/net9.0/refint/MicroRabbit.Banking.Application.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.pdb
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/obj/Debug/net9.0/ref/MicroRabbit.Banking.Application.dll

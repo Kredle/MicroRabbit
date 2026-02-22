@@ -13,3 +13,4 @@
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Infra.Bus/obj/Debug/net9.0/refint/MicroRabbit.Infra.Bus.dll
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Infra.Bus/obj/Debug/net9.0/MicroRabbit.Infra.Bus.pdb
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Infra.Bus/obj/Debug/net9.0/ref/MicroRabbit.Infra.Bus.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Infra.Bus/obj/Debug/net9.0/MicroRabbit.Infra.Bus.sourcelink.json

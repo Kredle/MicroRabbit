@@ -1,41 +1,59 @@
-var builder = WebApplication.CreateBuilder(args);
+using MicroRabbit.Banking.Infrastructure.Context;
+using MicroRabbit.Infra.IoC;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+namespace MicroRabbit.Banking.Api;
 
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+public class Program
 {
-    app.MapOpenApi();
-}
-
-app.UseHttpsRedirection();
-
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
+    public static void Main(string[] args)
     {
-        var forecast = Enumerable.Range(1, 5).Select(index =>
-                new WeatherForecast
-                (
-                    DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                    Random.Shared.Next(-20, 55),
-                    summaries[Random.Shared.Next(summaries.Length)]
-                ))
-            .ToArray();
-        return forecast;
-    })
-    .WithName("GetWeatherForecast");
+        var builder = WebApplication.CreateBuilder(args);
 
-app.Run();
+        // Add services to the container.
+        builder.Services.AddAuthorization();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+        // Add controllers so MVC controllers are discovered (Swagger needs this to include operations)
+        builder.Services.AddControllers();
+        
+        DependencyContainer.RegisterServices(builder.Services);
+
+        builder.Services.AddDbContext<BankingDbContext>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("BankingDbConnection"))
+        );
+        
+        builder.Services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Banking API", Version = "v1" });
+            });
+        
+        // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+        builder.Services.AddOpenApi();
+
+        var app = builder.Build();
+
+        // Configure the HTTP request pipeline.
+        if (app.Environment.IsDevelopment())
+        {
+            app.MapOpenApi();
+        }
+
+        app.UseHttpsRedirection();
+        
+        // Ensure the Swagger JSON is available for the UI
+        app.UseSwagger();
+        
+        app.UseSwaggerUI(c =>
+        {
+            c.SwaggerEndpoint("/swagger/v1/swagger.json", "Banking Microservice V1");
+        });
+
+        app.UseAuthorization();
+
+        // Map controller endpoints
+        app.MapControllers();
+
+        app.Run();
+    }
 }
