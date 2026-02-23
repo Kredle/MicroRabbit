@@ -10,3 +10,7 @@
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Domain/obj/Debug/net9.0/refint/MicroRabbit.Banking.Domain.dll
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Domain/obj/Debug/net9.0/MicroRabbit.Banking.Domain.pdb
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Domain/obj/Debug/net9.0/ref/MicroRabbit.Banking.Domain.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Domain/bin/Debug/net9.0/MicroRabbit.Domain.Core.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Domain/bin/Debug/net9.0/MicroRabbit.Domain.Core.pdb
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Domain/obj/Debug/net9.0/MicroRabbit.Banking.Domain.csproj.AssemblyReference.cache
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Domain/obj/Debug/net9.0/MicroRab.27435DDB.Up2Date

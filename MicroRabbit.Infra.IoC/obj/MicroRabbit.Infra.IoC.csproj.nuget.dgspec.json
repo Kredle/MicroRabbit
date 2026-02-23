@@ -88,7 +88,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj": {
+                "projectPath": "/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -1,3 +1,4 @@
+using MicroRabbit.Banking.Application.Dto;
 using MicroRabbit.Banking.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,5 +20,14 @@ public class BankingController : ControllerBase
     public async Task<IActionResult> GetAll()
     {
         return Ok(await _accountService.GetAccounts());
+    }
+    
+    // POST api/banking
+    [HttpPost]
+    public async Task<IActionResult> Transfer([FromBody] AccountTransferDto transferDto)
+    {
+        await _accountService.Transfer(transferDto);
+        
+        return Ok(transferDto);
     }
 }

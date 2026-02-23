@@ -14,3 +14,5 @@
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/obj/Debug/net9.0/refint/MicroRabbit.Banking.Application.dll
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/obj/Debug/net9.0/MicroRabbit.Banking.Application.pdb
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/obj/Debug/net9.0/ref/MicroRabbit.Banking.Application.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/bin/Debug/net9.0/MicroRabbit.Domain.Core.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Application/bin/Debug/net9.0/MicroRabbit.Domain.Core.pdb

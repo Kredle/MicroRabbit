@@ -16,3 +16,5 @@
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Infrastructure/obj/Debug/net9.0/MicroRabbit.Banking.Infrastructure.pdb
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Infrastructure/obj/Debug/net9.0/MicroRabbit.Banking.Infrastructure.genruntimeconfig.cache
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Infrastructure/obj/Debug/net9.0/ref/MicroRabbit.Banking.Infrastructure.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Infrastructure/bin/Debug/net9.0/MicroRabbit.Domain.Core.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Infrastructure/bin/Debug/net9.0/MicroRabbit.Domain.Core.pdb

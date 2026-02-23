@@ -1,5 +1,8 @@
+using MediatR;
 using MicroRabbit.Banking.Application.Interfaces;
 using MicroRabbit.Banking.Application.Services;
+using MicroRabbit.Banking.Domain.CommandHandlers;
+using MicroRabbit.Banking.Domain.Commands;
 using MicroRabbit.Banking.Domain.Interfaces;
 using MicroRabbit.Banking.Infrastructure.Repository;
 using MicroRabbit.Domain.Core.Bus;
@@ -14,6 +17,9 @@ public class DependencyContainer
     {
         // MediatR
         services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(DependencyContainer).Assembly));
+        
+        // Domain Banking Command Handlers
+        services.AddScoped<IRequestHandler<CreateTransferCommand, bool>, CreateTransferCommandHandler>();
         
         // Domain Bus
         services.AddTransient<IEventBus, RabbitMQBus>();
