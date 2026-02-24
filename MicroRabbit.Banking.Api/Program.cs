@@ -41,7 +41,6 @@ public class Program
 
         app.UseHttpsRedirection();
         
-        // Ensure the Swagger JSON is available for the UI
         app.UseSwagger();
         
         app.UseSwaggerUI(c =>
