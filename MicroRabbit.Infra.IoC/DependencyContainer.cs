@@ -16,9 +16,8 @@ public class DependencyContainer
             typeof(TransferCreatedEventHandler).Assembly,
             typeof(DependencyContainer).Assembly
         ));
-
-        services.AddSingleton<IEventBus, RabbitMQBus>(sp =>
-        {
+        
+        services.AddSingleton<IEventBus, RabbitMQBus>(sp => {
             var scopeFactory = sp.GetRequiredService<IServiceScopeFactory>();
             return new RabbitMQBus(scopeFactory);
         });

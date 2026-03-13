@@ -139,7 +139,6 @@ public sealed class RabbitMQBus : IEventBus
 
     private async Task ProcessEvent(string eventName, string message)
     {
-        // write raw message for debugging
         try
         {
             File.AppendAllText("/tmp/rabbit_messages.log", $"[{DateTime.UtcNow:o}] EventName={eventName} Message={message}\n");
