@@ -22,3 +22,7 @@
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Infra.IoC/obj/Debug/net9.0/refint/MicroRabbit.Infra.IoC.dll
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Infra.IoC/obj/Debug/net9.0/MicroRabbit.Infra.IoC.pdb
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Infra.IoC/obj/Debug/net9.0/ref/MicroRabbit.Infra.IoC.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Infra.IoC/bin/Debug/net9.0/MicroRabbit.Transfer.Domain.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Infra.IoC/bin/Debug/net9.0/MicroRabbit.Transfer.Infrastructure.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Infra.IoC/bin/Debug/net9.0/MicroRabbit.Transfer.Infrastructure.pdb
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Infra.IoC/bin/Debug/net9.0/MicroRabbit.Transfer.Domain.pdb

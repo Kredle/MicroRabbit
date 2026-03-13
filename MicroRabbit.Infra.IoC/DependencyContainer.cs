@@ -1,12 +1,8 @@
 using MediatR;
-using MicroRabbit.Banking.Application.Interfaces;
-using MicroRabbit.Banking.Application.Services;
 using MicroRabbit.Banking.Domain.CommandHandlers;
-using MicroRabbit.Banking.Domain.Commands;
-using MicroRabbit.Banking.Domain.Interfaces;
-using MicroRabbit.Banking.Infrastructure.Repository;
 using MicroRabbit.Domain.Core.Bus;
 using MicroRabbit.Infra.Bus;
+using MicroRabbit.Transfer.Domain.EventHandlers;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace MicroRabbit.Infra.IoC;
@@ -15,19 +11,16 @@ public class DependencyContainer
 {
     public static void RegisterServices(IServiceCollection services)
     {
-        // MediatR
-        services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(DependencyContainer).Assembly));
-        
-        // Domain Banking Command Handlers
-        services.AddScoped<IRequestHandler<CreateTransferCommand, bool>, CreateTransferCommandHandler>();
-        
-        // Domain Bus
-        services.AddTransient<IEventBus, RabbitMQBus>();
-        
-        // Application Services
-        services.AddScoped<IAccountService, AccountService>();
-        
-        // Data
-        services.AddScoped<IAccountRepository, AccountRepository>();
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(
+            typeof(CreateTransferCommandHandler).Assembly,
+            typeof(TransferCreatedEventHandler).Assembly,
+            typeof(DependencyContainer).Assembly
+        ));
+
+        services.AddSingleton<IEventBus, RabbitMQBus>(sp =>
+        {
+            var scopeFactory = sp.GetRequiredService<IServiceScopeFactory>();
+            return new RabbitMQBus(scopeFactory);
+        });
     }
 }

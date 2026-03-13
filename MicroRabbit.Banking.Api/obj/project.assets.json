@@ -1838,6 +1838,7 @@
         "dependencies": {
           "MediatR": "12.4.0",
           "MicroRabbit.Domain.Core": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.11",
           "Newtonsoft.Json": "13.0.3",
           "RabbitMQ.Client": "7.2.0"
         },
@@ -1855,6 +1856,7 @@
           "MicroRabbit.Banking.Application": "1.0.0",
           "MicroRabbit.Banking.Infrastructure": "1.0.0",
           "MicroRabbit.Infra.Bus": "1.0.0",
+          "MicroRabbit.Transfer.Infrastructure": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "9.0.11"
         },
         "compile": {
@@ -1862,6 +1864,34 @@
         },
         "runtime": {
           "bin/placeholder/MicroRabbit.Infra.IoC.dll": {}
+        }
+      },
+      "MicroRabbit.Transfer.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MicroRabbit.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MicroRabbit.Transfer.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroRabbit.Transfer.Domain.dll": {}
+        }
+      },
+      "MicroRabbit.Transfer.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MicroRabbit.Transfer.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.11"
+        },
+        "compile": {
+          "bin/placeholder/MicroRabbit.Transfer.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroRabbit.Transfer.Infrastructure.dll": {}
         }
       }
     }
@@ -5436,6 +5466,16 @@
       "type": "project",
       "path": "../MicroRabbit.Infra.IoC/MicroRabbit.Infra.IoC.csproj",
       "msbuildProject": "../MicroRabbit.Infra.IoC/MicroRabbit.Infra.IoC.csproj"
+    },
+    "MicroRabbit.Transfer.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MicroRabbit.Transfer.Domain/MicroRabbit.Transfer.Domain.csproj",
+      "msbuildProject": "../MicroRabbit.Transfer.Domain/MicroRabbit.Transfer.Domain.csproj"
+    },
+    "MicroRabbit.Transfer.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../MicroRabbit.Transfer.Infrastructure/MicroRabbit.Transfer.Infrastructure.csproj",
+      "msbuildProject": "../MicroRabbit.Transfer.Infrastructure/MicroRabbit.Transfer.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {

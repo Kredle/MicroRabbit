@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Microsoft SQL Server (JetBrains)" uuid="6b118f56-04ce-4a70-8100-0b93727bc522">
+    <data-source source="LOCAL" name="TransferDb@localhost" uuid="b4d1e032-e987-4204-9a3c-6750c5eb7689">
       <driver-ref>sqlserver.jb</driver-ref>
       <synchronize>true</synchronize>
       <configured-by-url>true</configured-by-url>
       <jdbc-driver>com.jetbrains.jdbc.sqlserver.SqlServerDriver</jdbc-driver>
-      <jdbc-url>Database=InternshipDb;Server=localhost;User Id=sa;Password=D2z793fq;TrustServerCertificate=True;</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="Microsoft SQL Server (JetBrains) [2]" uuid="bffeb8bb-b89f-4137-b96b-7f4f375bffd4">
-      <driver-ref>sqlserver.jb</driver-ref>
-      <synchronize>true</synchronize>
-      <configured-by-url>true</configured-by-url>
-      <jdbc-driver>com.jetbrains.jdbc.sqlserver.SqlServerDriver</jdbc-driver>
-      <jdbc-url>Database=BankingDb;Server=localhost;User Id=sa;Password=D2z793fq;TrustServerCertificate=True;</jdbc-url>
+      <jdbc-url>Server=localhost;User Id=sa;Password=D2z793fq;TrustServerCertificate=True;Database=TransferDb</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

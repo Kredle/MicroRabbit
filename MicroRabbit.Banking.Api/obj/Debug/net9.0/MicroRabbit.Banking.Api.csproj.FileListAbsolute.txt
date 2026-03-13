@@ -180,3 +180,7 @@
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Api/bin/Debug/net9.0/MicroRabbit.Transfer.Domain.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Api/bin/Debug/net9.0/MicroRabbit.Transfer.Infrastructure.dll
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Api/bin/Debug/net9.0/MicroRabbit.Transfer.Domain.pdb
+/home/kredle/RiderProjects/MicroRabbit/MicroRabbit.Banking.Api/bin/Debug/net9.0/MicroRabbit.Transfer.Infrastructure.pdb
